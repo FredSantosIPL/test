@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior ="single">
+        <item
+            android:id="@+id/navEstatico"
+            android:title="@string/txt_livros_lista"
+            android:icon="@drawable/ic_action_name"/>
+        <item
+            android:id="@+id/navDinamico"
+            android:title="@string/txt_livros_grelha"
+            android:icon="@drawable/ic_action_grid"/>
+    </group>
+
+    <item android:title="@string/txt_comunicar" >
+        <menu>
+            <item
+                android:id="@+id/navEmail"
+                android:title="@string/Email"
+                android:icon="@drawable/ic_action_email"/>
+        </menu>
+    </item>
+</menu>
